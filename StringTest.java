@@ -11,6 +11,9 @@ class StringTest{
         String upper = og.toUpperCase();
         System.out.println("Uppercase String: " + upper);
 
+        String lower = og.toLowerCase();
+        System.out.println("Lowercase String: " + lower);
+
         int vowels = 0;
         for (int i = 0; i < og.length(); i++){
             char ch = Character.toLowerCase(og.charAt(i));
